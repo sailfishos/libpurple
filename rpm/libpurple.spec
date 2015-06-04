@@ -1,7 +1,7 @@
 Name:       libpurple
 
 Summary:    libpurple library for IM clients like Pidgin and Finch
-Version:    2.10.9
+Version:    2.10.11
 Release:    1
 Group:      Applications/Communications
 License:    GPLv2+ and GPLv2 and MIT
@@ -13,7 +13,6 @@ BuildRequires:  pkgconfig(glib-2.0)
 BuildRequires:  pkgconfig(libxml-2.0)
 BuildRequires:  pkgconfig(libidn)
 BuildRequires:  pkgconfig(dbus-glib-1)
-BuildRequires:  pkgconfig(gnutls)
 BuildRequires:  pkgconfig(nss)
 BuildRequires:  pkgconfig(gstreamer-0.10)
 BuildRequires:  pkgconfig(farstream-0.1)
@@ -58,7 +57,8 @@ instant messaging clients or plugins for any libpurple based client.
     --disable-perl \
     --disable-tcl \
     --disable-meanwhile \
-    --disable-gestures
+    --disable-gestures \
+    --disable-gnutls
 
 make %{?_smp_mflags}
 
