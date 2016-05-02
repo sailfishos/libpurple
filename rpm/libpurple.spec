@@ -14,9 +14,9 @@ BuildRequires:  pkgconfig(libxml-2.0)
 BuildRequires:  pkgconfig(libidn)
 BuildRequires:  pkgconfig(dbus-glib-1)
 BuildRequires:  pkgconfig(nss)
-BuildRequires:  pkgconfig(gstreamer-0.10)
-BuildRequires:  pkgconfig(farstream-0.1)
-BuildRequires:  pkgconfig(gstreamer-plugins-base-0.10)
+BuildRequires:  pkgconfig(gstreamer-1.0)
+BuildRequires:  pkgconfig(farstream-0.2)
+BuildRequires:  pkgconfig(gstreamer-plugins-base-1.0)
 BuildRequires:  intltool
 BuildRequires:  libtool
 BuildRequires:  gettext
