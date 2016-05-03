@@ -46,7 +46,7 @@ instant messaging clients or plugins for any libpurple based client.
 %setup -q -n %{name}-%{version}/pidgin
 
 %build
-%configure --disable-static \
+%autogen --disable-static \
     --disable-consoleui \
     --disable-gtkui \
     --disable-screensaver \
@@ -59,7 +59,6 @@ instant messaging clients or plugins for any libpurple based client.
     --disable-meanwhile \
     --disable-gestures \
     --disable-gnutls
-    ----with-gstreamer=1.0
 
 make %{?_smp_mflags}
 
