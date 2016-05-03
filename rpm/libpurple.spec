@@ -59,6 +59,7 @@ instant messaging clients or plugins for any libpurple based client.
     --disable-meanwhile \
     --disable-gestures \
     --disable-gnutls
+    ----with-gstreamer=1.0
 
 make %{?_smp_mflags}
 
